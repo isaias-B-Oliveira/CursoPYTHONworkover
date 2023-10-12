@@ -47,6 +47,8 @@ idade.append(10)
 idade.append(12)
 idade.append(20)
 idade.append(35)
+idade.append(35)
+idade.append(35)
 idade.append(45)
 # acesando o menor elemento
 print("Menor idade: {}".format(min(idade)))
@@ -57,3 +59,16 @@ print("Soma das idades: {}".format(sum(idade)))
 # obtendo a media dos elementos
 media = sum(idade) / len(idade)
 print("Media das idades: {:.2f}".format(media))
+# removendo o ultimo elemento da lista 
+idade.pop()
+# removendo um elemento especifico
+idade.pop(1)
+# apagando toda a lista
+# idade.clear()
+# apagando um item especifico da lista passando o parametro
+idade.remove(35)  # so apaga a primeira ocorencia
+# percorrendo uma lista e apagando todas as ocorrencias do parametro
+for ano in idade:
+    if (ano == 35):
+        idade.remove(ano)
+print(idade)
