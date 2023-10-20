@@ -4,7 +4,9 @@ def saldar():
 def saldar_aluno(nome):
     print("Ola {}".format(nome))
 
+# como documenta uma funcao
 def calcular_dobro(numero):
+    "esta funcao recebe um numero parametro e devolve o seu dobro"
     return 2 * numero
 
 def calcular_dobro_triplo(numero):

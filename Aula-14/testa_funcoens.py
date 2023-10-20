@@ -4,7 +4,9 @@ saldar()
 
 saldar_aluno("isaias")
 
-print(calcular_dobro(5))  
+print(calcular_dobro(5)) 
+#chamando a documentação da funcao
+print(calcular_dobro.__doc__) 
 
 print(calcular_dobro_triplo(5))
 
