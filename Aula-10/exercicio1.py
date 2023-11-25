@@ -1,7 +1,7 @@
 # um programa deve reseber a idade eo sexo dos alunos considere que o usuario
 # nao saber a quantidade de alunos, ao fim ele deve exibir a quantidade de rapases
 # acima de 18 anos de idade, e a media da idade das moças
-# para encerar informe uma idade negativa
+# para encerar o programa informe uma idade negativa
 rapaz_maio = 0
 soma_idade_mocas = 0
 mocas = 0
