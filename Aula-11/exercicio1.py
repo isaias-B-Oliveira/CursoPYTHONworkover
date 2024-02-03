@@ -15,4 +15,3 @@ sudeste[3] = "Vitoria"
 for sud in range(4):
     print(sudeste[sud])
 
-###
